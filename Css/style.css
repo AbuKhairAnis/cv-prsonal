@@ -1,0 +1,125 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.head {
+    height: 220px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 10px 20px;
+
+}
+
+.image img {
+    height: 200px;
+    width: 200px;
+    top: 0px;
+    margin-top: 10px;
+    margin-right: 20px;
+
+
+}
+
+.text h1 {
+    text-align: center;
+    font-size: 70px;
+}
+
+h2,
+h3,
+h4 {
+    text-align: center;
+}
+
+.text {
+    margin-top: 20px;
+
+}
+
+.contract-info h1 {
+    font-size: 35px;
+    border-bottom: 3px solid gray;
+}
+
+.contract-info p {
+    font-size: 20px;
+}
+
+.contract-info {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.contract-info p a {
+    text-decoration: none;
+    color: black;
+}
+
+.object {
+    margin: 10px 20px;
+
+}
+
+.object h1 {
+    font-size: 40px;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-bottom: 5px solid gray;
+}
+
+.object p {
+    text-align: justify;
+    font-size: 25px;
+}
+
+.education {
+    margin: 10px 20px;
+
+}
+
+.education h1 {
+    font-size: 40px;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-bottom: 5px solid gray;
+}
+
+.education table {
+    font-family: arial;
+    font-size: 18px;
+    border-collapse: collapse;
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.education .table table {
+    display: flex;
+}
+
+.education th,
+td {
+    border: 2px solid gray;
+    padding: 15px;
+
+}
+
+.education td {
+    text-align: center;
+    font-size: 15px;
+
+}
+
+.education tr:hover {
+    background-color: black;
+    color: white;
+}
+
+.education th {
+    background-color: green;
+    color: white;
+}
